@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #fafafa; /* Lichte grijze achtergrond */
+    color: #333333; /* Donkergrijze tekstkleur voor een nette uitstraling */
+    line-height: 1.6;
+  }
+  
+  header {
+    padding: 3rem;
+    text-align: center;
+    background-color: #e8f0f2; /* Lichte blauwe tint voor de header */
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05); /* Subtiele schaduw voor een elegantere uitstraling */
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: #37474f; /* Donkerblauw voor de titel voor een strakke look */
+  }
+  
+  header p {
+    margin-top: 0.5rem;
+    color: #555; /* Lichte grijze tekstkleur voor de subtitel */
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd; /* Lichte grijze lijn voor de scheiding */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #37474f; /* Donkerblauw voor de links */
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #00838f; /* Koraalachtige blauwe tint bij hover voor visuele feedback */
+  }
+  
+  section {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Subtiele schaduw voor een frisse uitstraling */
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #37474f; /* Donkerblauw voor de koppen */
+  }
+  
+  .project {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #f9fafb; /* Lichte grijze achtergrond voor projecten */
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05); /* Subtiele schaduw voor projecten */
+  }
+  
+  .project h3 {
+    font-size: 1.6rem;
+    color: #00838f; /* Koraaltint voor de projecttitels voor visuele nadruk */
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: #888;
+    background-color: #e8f0f2; /* Zelfde blauwe tint als header voor consistentie */
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto 2rem; /* Centrerende afbeelding */
+    width: 80%;
+    max-width: 400px; /* Maximum breedte voor de afbeelding */
+  }
+a{
+    display: block;
+    margin: 0 auto 2rem; /* Centrerende afbeelding */
+    width: 80%;
+    max-width: 200px; /* Maximum breedte voor de afbeelding */
+    
+}  
